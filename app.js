@@ -2,7 +2,7 @@
 
 var chalk = require("chalk"); // module is useful for color logging
 var express = require("express"); // module is useful for handle the requests
-var captionprocess = require("./captionsprocess"); // module is used to do captions processing
+var captionprocess = require("./helper/captionsprocess.js"); // module is used to do captions processing
 
 // module is useful for get subtitles of youtube video
 var getSubtitles = require("youtube-captions-scraper").getSubtitles;
